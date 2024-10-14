@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  font-family: "Inter", sans-serif;
+   
+}
+.rbc_btn_group:first-child{
+  display: none !important;
+}
+.rbc_toolbar_label{
+  text-align: right !important;
+}
+
+.rbc_btn_group:last-child{
+  font-size:13px !important;
+}
+.rbc_btn_group:last-child button{
+  border: none !important;
+  background-color: white;
+}
